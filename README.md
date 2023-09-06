@@ -11,4 +11,5 @@ component para client-site(com useEffect, useState deve ser declarado.)
 
 <h3>Como funciona o Next </h3>
 
+<img width="952" alt="Next-conceitos" src="https://github.com/Guilhermefonseca2021/shop-nextjs/assets/92196697/7abb9ea8-5879-4526-be7b-4c77057e0619">
 -trabalha com file system routen( no seu diretorio)
