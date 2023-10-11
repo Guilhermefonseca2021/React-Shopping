@@ -1,33 +1,36 @@
-<h3> Iniciando Next </h3>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p>
-  Next atualmente se mantem atualizando e declarei os pontos para aprender, é facil e nao se assuste o React recomenda o next atualmente proseguindo sua versao 13 e as que vierem, esse framework é muito didatico para quem ja sabe react nao precisar quebrar cabeca, mas claro, mantendo sua propria declaracao que nao vai te tirar de maneira nenhuma como sendo superficial, o conhecimento do React e etc ate porque voce tera nocao do que roda por baixo dos panos. NO FINAL DAS CONTAS é TUDO REACT, nao fique com pé atras.
-</p>
+## Getting Started
 
-1. npm i  @types/react @types/node -D (dentro do app criado)
-2. proprio React recomenda Next na atualizacao oficial do pagina React
-3. carregamentos de rotas poderosos, data fetching, generating HTML
+First, run the development server:
 
-<h3>Comparativos React x Node </h3>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-1. React é so a bliblioteca (uso do seu jeito, sua estrutura de paginas)
-2. Next é um framework (mais opinativo, toda declaracao de pastas, e estruturas do next)
-3. Next tem pouca ou quase nada democracia para criar rotas,
-4. so criar a pasta page e o content ja declara as rotas da aplicacao.
-5. pode criar endpoints com API mesma maneira de aplicacao back end
-6. ajuda no SEO
-7. server-side rendering, codifica html para o navegador.
-8. nao joga a pagina em branco como react,
-9. joga toda estrutura da pagina rapida e DEPOis renderiza o javascript para o usario nao ficar sem receber nada assim que entrar na pagina.
-10. permite client rendering e server-side rendering
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<h3> como funciona Next v.13+.(atualizacao de rotas) </h3>
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-1. app esta envolvido na pasta src
-2. padrao do app é server-side, podendo declarar varios component para client-side(com useEffect, useState como deve ser declarado.)
-3. troca do (index.) para (page.) para declarar qual o main daquela rota
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
-<img width="952" alt="Next-conceitos" src="https://github.com/Guilhermefonseca2021/shop-nextjs/assets/92196697/7abb9ea8-5879-4526-be7b-4c77057e0619">
--trabalha com file system routen( no seu diretorio)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
