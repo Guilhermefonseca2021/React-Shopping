@@ -5,3 +5,4 @@ const orderRoutes = Router()
 
 orderRoutes.post("/", createOrder)
 
+export default orderRoutes

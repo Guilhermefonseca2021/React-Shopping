@@ -7,11 +7,11 @@ const orderSchema = new Schema<IOrder>(
             name: {
                 type: String,
                 required: true,
-            }
-        },
-        email: {
-            type: String,
-            required: true,
+            },
+            email: {
+                type: String,
+                required: true,
+            },
         },
         orderItems: [
             {
@@ -25,7 +25,7 @@ const orderSchema = new Schema<IOrder>(
                     required: true,
                 },
                 quantity: {
-                    type: String,
+                    type: Number,
                     required: true,
                 },
                 price: {
@@ -33,7 +33,6 @@ const orderSchema = new Schema<IOrder>(
                     required: true,
                 }
             },
-
         ],
         deliveryAddress: {
             address: {
@@ -41,7 +40,7 @@ const orderSchema = new Schema<IOrder>(
                 required: true,
             },
             city: {
-                type: Number,
+                type: String,
                 required: true,
             },
         },
