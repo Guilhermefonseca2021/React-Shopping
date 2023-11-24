@@ -22,7 +22,7 @@
 
 ## Descrição do Projeto
 
-Este projeto consiste em um site de agendamento para hoteis e venda de serviços, onde os usuários podem encontrar e entrar contatos com hoteis, hostels, kitnets para contratar seus serviços de estadia.
+ E-commerce construído com React e TypeScript! Explore uma experiência de compra intuitiva e eficiente, impulsionada pela poderosa combinação dessas tecnologias avançadas. Navegue por uma interface moderna e responsiva, aproveitando o desenvolvimento seguro e eficiente proporcionado pelo uso do TypeScript. Este projeto visa oferecer uma plataforma de compras online robusta e fácil de usar, destacando-se pela sua performance e manutenibilidade. Sinta-se à vontade para explorar, comprar e desfrutar da excelência em cada interação.
 
 ## 🛠️ Tecnologias
 
@@ -49,7 +49,7 @@ $  npm install
 $  npm run dev
 ```
 
-<a href="">Testar aplicacao agora. </a>
+<a href="https://react-shopping-nu.vercel.app/store">Testar aplicacao agora. </a>
 
 made with 💜 by GUILHERME FONSECA 👋 [See my linked-in](https://www.linkedin.com/in/guilherme-fonseca-dos-santos-a49594207/)
 
