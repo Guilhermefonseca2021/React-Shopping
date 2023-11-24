@@ -1,20 +1,18 @@
-import ProductItem from "../components/ProductItem";
-import products from "../hooks/data.json";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap"
+import { StoreItem } from "../components/StoreItem"
+import storeItems from "../data/items.json"
 
-export default function Store() {
+export function Store() {
   return (
     <>
       <h1>Store</h1>
-      <Row md={2} xs={1} lg={3} className="g-3 ">
-        {products.map((product) => {
-          return (
-            <Col key={product.id}>
-              <ProductItem {...product} />
-            </Col>
-          );
-        })}
+      <Row md={2} xs={1} lg={3} className="g-3">
+        {storeItems.map(item => (
+          <Col key={item.id}>
+            <StoreItem {...item} />
+          </Col>
+        ))}
       </Row>
     </>
-  );
+  )
 }
