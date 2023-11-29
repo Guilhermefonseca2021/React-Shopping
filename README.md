@@ -49,7 +49,7 @@ $  npm install
 $  npm run dev
 ```
 
-<a href="https://react-shopping-nu.vercel.app/store">Testar aplicacao agora. </a>
+<a href="https://react-shopping-nu.vercel.app">Testar aplicacao agora. </a>
 
 made with 💜 by GUILHERME FONSECA 👋 [See my linked-in](https://www.linkedin.com/in/guilherme-fonseca-dos-santos-a49594207/)
 
